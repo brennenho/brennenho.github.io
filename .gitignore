@@ -1,4 +1,11 @@
+# Ignoring open-sourced software subdirectories
+
+# YOURLS
 /u
+# PASTEBIN
 /p
+# NEXTCLOUD
 /hub
+# WORDPRESS
 /blog
+
