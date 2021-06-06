@@ -5,6 +5,7 @@
         <title>Brennen Ho</title>
         <link rel="shortcut icon" href="images/profile.png">
         <meta charset="UTF-8">
+        <meta name="description" content="I'm a high school Sophomore passionate about programming, robotics, journalism, and graphic design. In my free time, I enjoy tennis and video games."/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/all.css" rel="stylesheet"> <!--load all font awesome styles -->
         <link rel="stylesheet" href="assets/css/main.css" />
@@ -33,7 +34,7 @@
                     </a>
                 </div>
                 <div class="menu-item">
-                    <a href="mailto:contact@brennen.dev"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                    <a href="mailto:web@brennen.dev"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                 </div>
             </div>
     
@@ -58,9 +59,30 @@
         </div>
         <!--PORTFOLIO-->
         <div class="projects-wrapper" id="portfolio">
-            <h1> Portfolio </h1>
+            <h1>Portfolio</h1>
             <div class="project-container">
                 <div class="row">
+                    <!--ROW 1-->
+                    <!--Blog-->
+                    <div class="card-container">
+                        <a target="_blank" rel="noopener noreferrer" href="/blog">
+                            <div class="project-card">
+                                
+                                    <div class="project-image">
+                                        <img src="images/hellointernet.png" alt="Hello Internet">
+                                    </div>
+                                
+                            </div>
+                        </a>
+                            <div class="project-desc">
+                                <h2>Hello Internet</h2>
+                                <p>
+                                    <a target="_blank" rel="noopener noreferrer" href="/blog">Hello Internet</a>
+                                    is a blog I created in order to document my projects and record my thoughts.
+                                    The Website is hosted on my <a href="https://cloud.google.com">Google Cloud Platform</a> VM Instance with <a href="https://wordpress.org">Wordpress</a>.
+                                </p>
+                            </div>
+                    </div>
                     <!--Paly Robotics-->
                     <div class="card-container">
                         <a target="_blank" rel="noopener noreferrer" href="http://palyrobotics.com/">
@@ -83,7 +105,9 @@
                             </p>
                         </div>
                     </div>
-
+                </div>
+                <div class="row">
+                    <!--ROW 2-->
                     <!--Paly Voice-->
                     <div class="card-container">
                         <a target="_blank" rel="noopener noreferrer" href="https://palyvoice.com">
@@ -105,9 +129,6 @@
                                 </p>
                             </div>
                     </div>
-
-                </div>
-                <div class="row">
                     <!--AMIGOS-->
                     <div class="card-container">
                         <a target="_blank" rel="noopener noreferrer" href="https://amigosinternational.org/">
@@ -125,14 +146,75 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <!--ROW 3-->
+                    <!--Url Shortener-->
+                    <div class="card-container">
+                        <a target="_blank" rel="noopener noreferrer" href="https://url.brennen.dev">
+                            <div class="project-card">
+                                    <div class="project-image">
+                                        <img src="images/urlshortener.png" alt="URL Shortener">
+                                    </div>
+                            </div>
+                        </a>
+                            <div class="project-desc">
+                                <h2>URL Shortener</h2>
+                                <p>
+                                    I created a URL Shortener on the domain <a href="/u">brennen.dev/u</a> that uses the open source <a href="https://yourls.org">YOURLS</a> software to automatically shorten urls.
+                                    This project used Google Cloud Platform's VM Instances to serve the front-end website and store the back-end mySQL database.
+                                    This project introduced my to nginx and improved my back-end management.
+                                </p>
+                            </div>
+                    </div>
+                    <!--Hastebin-->
+                    <div class="card-container">
+                        <a target="_blank" rel="noopener noreferrer" href="/h">
+                            <div class="project-card">
+                                    <div class="project-image">
+                                        <img src="images/haste.png" alt="Haste">
+                                    </div>
+                            </div>
+                        </a>
+                        <div class="project-desc">
+                            <h2>
+                                Hastebin
+                            </h2>
+                            <p>
+                                I self-hosted my own <a href="/h">Hastebin</a> on my server. 
+                                Hastebin is a simple and elegant way to share text, and is great for sharing code.
+                                The open-sourced code can be found <a href="https://github.com/seejohnrun/haste-server">here</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Safe School Yard-->
+                    <div class="card-container">
+                        <a target="_blank" rel="noopener noreferrer" href="https://safeschoolyard.com">
+                            <div class="project-card">
+                                    <div class="project-image">
+                                        <img src="images/safeschoolyard.png" alt="Safe School Yard">
+                                    </div>
+                            </div>
+                        </a>
+                            <div class="project-desc">
+                                <h2>Safe School Yard</h2>
+                                <p>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://safeschoolyard.com">Safe School Yard</a>
+                                    is a website I created in order to help students, teachers, and parents in their transition back to school.
+                                    The website features both useful resources and a community forum.
+                                </p>
+                            </div>
+                    </div>
+                    <!--TSA TEAMS-->
                     <div class="card-container">
                         <a target="_blank" rel="noopener noreferrer" href="https://tsaweb.org/teams/home">
                             <div class="project-card">
                                 
                                     <div class="project-image">
-                                        <img src="images/teams.jpg">
+                                        <img src="images/teams.jpg" alt="TSA Teams">
                                     </div>
-                                
                             </div>
                         </a>
                         <div class="project-desc">
@@ -145,52 +227,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <!--Safe School Yard-->
-                    <div class="card-container">
-                        <a target="_blank" rel="noopener noreferrer" href="https://safeschoolyard.com">
-                            <div class="project-card">
-                                
-                                    <div class="project-image">
-                                        <img src="images/safeschoolyard.png" alt="Safe School Yard">
-                                    </div>
-                                
-                            </div>
-                        </a>
-                            <div class="project-desc">
-                                <h2>Safe School Yard</h2>
-                                <p>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://safeschoolyard.com">Safe School Yard</a>
-                                    is a website I created in order to help students, teachers, and parents in their transition back to school.
-                                    The website features both useful resources and a community forum. The resources include comprehensive guides 
-                                    to socially-distant games.
-        
-                                </p>
-                            </div>
-                    </div>
-                    <!--Url Shortener-->
-                    <div class="card-container">
-                        <a target="_blank" rel="noopener noreferrer" href="https://url.brennen.dev">
-                            <div class="project-card">
-                                
-                                    <div class="project-image">
-                                        <img src="images/urlshortener.png" alt="URL Shortener">
-                                    </div>
-                                
-                            </div>
-                        </a>
-                            <div class="project-desc">
-                                <h2>URL Shortener</h2>
-                                <p>
-                                    I created a URL Shortener on the domain <a href="https://url.brennen.dev">url.brennen.dev</a> that uses the open source <a href="https://yourls.org">YOURLS</a> software to automatically shorten urls.
-                                    This project used Google Cloud Platform's VM Instances to serve the front-end website and store the back-end mySQL database.
-                                    This project introduced my to nginx and improved my back-end management.
-                                </p>
-                            </div>
-                    </div>
-                </div>
             </div>
         </div>
-        
     </body>
 </html>
